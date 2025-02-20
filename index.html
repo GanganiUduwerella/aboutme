@@ -152,7 +152,8 @@
 										<tr>
 											<td style="border-right: 1px solid #ddd; font-size: larger; font-weight: bold;">Project Experience</td>
 											<td style="padding-left: 25px;">Lead Developer - Social Good Web Application<br>
-												Monash University, Industry Studio Project
+												Monash University, Industry Studio Project<br>
+												<a href="#i-like-to-move-it">Go to project overview</a>
 											</td>
 											<td style="padding: 10px;"><ul>
 												<li>Developed a full-stack web application aimed at helping immigrant children find parks and stay active after relocating to Melbourne</li>
@@ -169,7 +170,8 @@
 										<tr>
 											<td style="border-right: 1px solid #ddd; font-size: larger; font-weight: bold;"></td>
 											<td style="padding-left: 25px;">Android Application for Bakery Product Sales<br>
-												Monash University, Student Project
+												Monash University, Student Project<br>
+												<a href="#sweet-cakes">Go to project overview</a>
 											</td>
 											<td style="padding: 10px;"><ul>
 												<li>Developed a complete Android application using Kotlin to manage bakery product sales, allowing customers to browse products, place orders, and track deliveries</li>
@@ -183,7 +185,8 @@
 										<tr>
 											<td style="border-right: 1px solid #ddd; font-size: larger; font-weight: bold;"></td>
 											<td style="padding-left: 25px;">Medical Imaging Service Web Portal<br>
-												Monash University, Student Project
+												Monash University, Student Project<br>
+												<a href="#medi-us">Go to project overview</a>
 											</td>
 											<td style="padding: 10px;"><ul>
 												<li>Built a web application for a medical imaging service that functions as an information portal and a booking system</li>
@@ -210,7 +213,8 @@
 										<tr>
 											<td style="border-right: 1px solid #ddd; font-size: larger; font-weight: bold;"></td>
 											<td style="padding-left: 25px;">High Fidelity Prototype Design for Mobile Application<br>
-												Monash University, Student Project
+												Monash University, Student Project<br>
+												<a href="#plate-pledge">Go to project overview</a>
 											</td>
 											<td style="padding: 10px;"><ul>
 												<li>Developed an interactive prototype using Figma for a Mobile application, allowing smooth user interactions and efficient user experience</li>
@@ -287,7 +291,7 @@
 		<article id="portfolio" class="wrapper style3">
 			<div class="container">
 				<header style="text-align: left;">
-					<h2>Projects</h2>
+					<h2 id="i-like-to-move-it">Projects</h2>
 				</header>
 				<table style="width: 100%; border-collapse: separate; border-spacing: 20px; table-layout: fixed;">
 					<colgroup>
@@ -296,7 +300,7 @@
 					</colgroup>
 					<tr>
 						<td style="vertical-align: top;">
-							<h3><a href="#">Project 1: I Like To Move It</a></h3>
+							<h3>Project 1: I Like To Move It</h3>
 							<p style="text-align: justify;">"I Like To Move It" is a full-stack web application designed to help immigrant children in Melbourne find parks and stay active. 
 								Built with React and Bootstrap for the frontend and Python Flask for the backend, it integrates Google Maps API for navigation and OpenWeather API for real-time weather updates. 
 								The backend processes user interactions, manages game activities using TensorFlow Lite for image recognition, and stores data in an SQLite database. 
@@ -312,11 +316,11 @@
 						</td>
 					</tr>
 					<tr>
-						<td colspan="3" style="height: 40px;"></td>
+						<td colspan="3" style="height: 40px;" id="cycleboost"></td>
 					</tr>
 					<tr>
 						<td style="vertical-align: top;">
-							<h3><a href="#">Project 2: CycleBoost</a></h3>
+							<h3>Project 2: CycleBoost</h3>
 							<p style="text-align: justify;">CycleBoost is a web-based application designed to promote cycling as a safer and more sustainable commuting option in Melbourne. 
 								Built with Dash-Leaflet for interactive map visualizations and powered by Python and SQLite, the application integrates Google APIs for real-time route planning and directions. 
 								Key features include a choropleth map displaying bicycle accident hotspots, a bar chart analyzing accident severity, and a route planner that factors in designated bike lanes, elevation changes, and difficulty levels. 
@@ -332,12 +336,11 @@
 						</td>
 					</tr>
 					<tr>
-						<td colspan="3" style="height: 40px;"></td>
+						<td colspan="3" style="height: 40px;"  id="visualization-map"></td>
 					</tr>
 					<tr>
 						<td style="vertical-align: top;">
-							<h3><a href="#">Project 3: How safe are our children once they leave school, in the city of Casey? 
-								</a></h3>
+							<h3>Project 3: How safe are our children once they leave school, in the city of Casey?</h3>
 							<p style="text-align: justify;">How Safe Are Our Children Once They Leave School in the City of Casey? is an interactive data visualization project analyzing school locations and road accident patterns in the City of Casey. 
 								It visually maps student distributions and accident clusters to assess potential safety risks for children commuting to and from school. 
 								Data preprocessing was performed using R in R Studio, involving cleaning, formatting, filtering, and merging operations before exporting to CSV. 
@@ -350,9 +353,80 @@
 								</p>
 						</td>
 						<td style="text-align: center; vertical-align: middle; padding-left: 20px;">
-							<a href="https://insightmap.gangani.website/" target="_blank"><img src="images/project3.png" alt="Project Image" style="max-width: 100%; height: auto; border-radius: 8px;"></a>
+							<a href="https://insightmap.gangani.website/" target="_blank">
+								<img src="images/project3.png" alt="Project Image" 
+								style="max-width: 100%; height: auto; border-radius: 8px;"></a>
 						</td>
-					</tr>				
+					</tr>
+					<tr>
+						<td colspan="3" style="height: 40px;" id="sweet-cakes"></td>
+					</tr>
+					<tr>
+						<td style="vertical-align: top;">
+							<h3>Project 4: Bakery Sales Android App</h3>
+							<p style="text-align: justify;">Sweet Cakes is a Kotlin-based mobile application that enables users to browse and order cakes from a bakery with an intuitive and visually engaging interface. 
+								The app features secure Google Sign-In using Credential Manager, a structured user authentication system, and a profile management screen. 
+								Users can explore a variety of cakes, view detailed product descriptions with calorie estimates from an external source, and add selected items to their cart. 
+								The app's product and order data are efficiently managed using Room database, ensuring smooth data persistence. 
+								Built with modern Android components like Room, Retrofit, LazyColumn, and Coil, Sweet Cakes delivers a seamless and structured user experience.</p>
+								<p style="text-align: left;">
+									<strong>Video Link: 
+										<a href="images/project4.mp4" target="_blank">Watch Demo</a>
+									</strong>
+								</p>
+							</td>
+							<td style="text-align: center; vertical-align: middle; padding-left: 20px;">
+								<a href="images/project4.mp4" target="_blank">
+									<img src="images/project4.png" alt="Bakery App Thumbnail" 
+										 style="max-width: 70%; height: auto; border-radius: 8px;">
+								</a>
+							</td>
+					</tr>
+					<tr>
+						<td colspan="3" style="height: 40px;" id="medi-us"></td>
+					</tr>
+					<tr>
+						<td style="vertical-align: top;">
+							<h3>Project 5: Medical Imaging Service Web Portal</h3>
+							<p style="text-align: justify;">Medical Imaging Service Web Portal is a full-stack web application built with ASP.NET (MVC), C#, Razor markup, and Bootstrap, featuring a MS SQL database backend with role-based authentication for secure access control.
+								The system enables patients to create accounts, manage appointments, and submit service ratings, while practitioners and administrators handle bookings, user management, and communication. 
+								Administrators can view aggregated practitioner ratings, generate reports with data export (CSV/PDF), and manage schedules and center closures. 
+								The platform integrates Google Maps API for location services, data visualization with interactive charts (scatter plots and tables), and a bulk email system with attachments, optimizing operational efficiency.</p>
+								<p style="text-align: left;">
+									<strong>Video Link: 
+										<a href="images/project5.mp4" target="_blank">Watch Demo</a>
+									</strong>
+								</p>
+							</td>
+							<td style="text-align: center; vertical-align: middle; padding-left: 20px;">
+								<a href="images/project5.mp4" target="_blank">
+									<img src="images/project5.png" alt="Bakery App Thumbnail" 
+										 style="max-width: 100%; height: auto; border-radius: 8px;">
+								</a>
+							</td>
+					</tr>
+					<tr>
+						<td colspan="3" style="height: 40px;" id="plate-pledge"></td>
+					</tr>
+					<tr>
+						<td style="vertical-align: top;">
+							<h3>Project 6: High-Fidelity Mobile App Prototype</h3>
+							<p style="text-align: justify;">"Plate Pledge" is a mobile app prototype designed in Figma to streamline the food donation process by helping donors locate nearby donation centers, access guidelines, explore charity events, and track their contributions. 
+								Built with a user-centered design approach, the prototype features interactive elements, including a home screen with a clickable map, a reminder system for donation scheduling, and a navigation menu for additional options. 
+								The design follows accessibility and usability principles, incorporating intuitive navigation, interactive cards, dropdowns, toggles, and form validation to ensure a seamless and inclusive user experience.</p>
+								<p style="text-align: left;">
+									<strong>Video Link: 
+										<a href="images/project6.mp4" target="_blank">Watch Demo</a>
+									</strong>
+								</p>
+							</td>
+							<td style="text-align: center; vertical-align: middle; padding-left: 20px;">
+								<a href="images/project6.mp4" target="_blank">
+									<img src="images/project6.png" alt="Bakery App Thumbnail" 
+										 style="max-width: 70%; height: auto; border-radius: 8px;">
+								</a>
+							</td>
+					</tr>
 				</table>
 			</div>
 		</article>
